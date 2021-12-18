@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import shortid from "shortid";
 
 import "./App.css";
-import ContactForm from "./components/ContactForm/ContactForm";
-import ContactList from "./components/ContactList/ContactList";
-import Filter from "./components/Filter/Filter";
+import ContactForm from "./components/ContactForm";
+import ContactList from "./components/ContactList";
+import Filter from "./components/Filter";
 
 export default function App() {
   const [contacts, setContacts] = useState([]);

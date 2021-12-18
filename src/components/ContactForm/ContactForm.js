@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import shortid from "shortid";
 import "./ContactForm.css";
-import ContactList from "../ContactList/ContactList";
 
 export default function ContactForm({ onSubmit }) {
   const [name, setName] = useState("");
